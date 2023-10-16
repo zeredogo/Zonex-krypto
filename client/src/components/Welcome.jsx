@@ -6,7 +6,7 @@ import { Loader } from "./";
 
 const Welcome = () => {
     return (
-        <h1>Welcome</h1>
+        <div className="flex w-full justify-center item-center"></div>
     );
 }
 
