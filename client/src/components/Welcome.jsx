@@ -80,14 +80,15 @@ const Welcome = () => {
                         <Input placeholder="Amount (ETH)" Name="amount" type="number" handleChange={() => {}} />
                         <Input placeholder="keyword (Gif)" Name="keyword" type="text" handleChange={() => {}} />
                         <Input placeholder="Enter Message" Name="message" type="text" handleChange={() => {}} />
-                      <div className="h-[1px] w-full bg-gray-400 my-2"/>
+                      <div className="h-[1px] w-full bg-gray-400 my-2 " />
 
                       {true ? (
                         <Loader />
                       ) : (
-                        <div>
-                            
-                        </div>
+                        <button
+                        type="button"
+                        onClick={handleSubmit}
+                        ></button>
                       )}
                     </div>
                 </div>
