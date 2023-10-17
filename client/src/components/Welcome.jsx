@@ -88,7 +88,9 @@ const Welcome = () => {
                         <button
                         type="button"
                         onClick={handleSubmit}
-                        ></button>
+                        >
+                            Send Now
+                        </button>
                       )}
                     </div>
                 </div>
