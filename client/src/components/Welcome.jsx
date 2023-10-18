@@ -88,7 +88,7 @@ const Welcome = () => {
                         <button
                         type="button"
                         onClick={handleSubmit}
-                        className="text-white w-full mt-2 bg-gray"
+                        className="text-white w-full mt-2 border-[1px] p2 border[#3d4f7c]"
                         >
                             Send Now
                         </button>
