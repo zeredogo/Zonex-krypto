@@ -21,7 +21,7 @@ const Welcome = () => {
 
     const connectWallet = () => {}
 
-    const handleSubmit = ()
+    const handleSubmit = () =>
     return ( 
         <div className="flex w-full justify-center item-center">
             <div className="flex md:flex-row flex-col items-start justify-between md:p-20 py-12 px-4">
