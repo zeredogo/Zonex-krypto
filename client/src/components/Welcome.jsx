@@ -84,7 +84,7 @@ const Welcome = () => {
                         <Input placeholder="Enter Message" Name="message" type="text" handleChange={() => {}} />
                       <div className="h-[1px] w-full bg-gray-400 my-2 " />
 
-                      {tr ? (
+                      {tru ? (
                         <Loader />
                       ) : (
                         <button
